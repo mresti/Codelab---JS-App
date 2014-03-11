@@ -1,0 +1,552 @@
+/* GENERAL */
+body {
+    background: #ffffff;
+    color: #5b5b5b;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+img,
+object,
+video {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 2.25em;
+    font-weight: bold;
+}
+
+a {
+  color: red;
+  text-decoration: none;
+  transition-property: opacity;
+  transition-duration: 0.3s;
+  -webkit-transition-property: opacity;
+  -webkit-transition-duration: 0.3s;
+  -o-transition-property: opacity;
+  -o-transition-duration: 0.3s;
+  -moz-transition-property: opacity;
+  -moz-transition-duration: 0.3s;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+.red {
+    color: #e31212;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.color-red{
+    color: #da4b3f;
+}
+
+.color-green{
+    color: #099851;
+}
+
+.color-blue{
+    color: #5f85c3;
+}
+
+.color-yellow{
+    color: #f7c53d;
+}
+
+.color-grey{
+    color: #555555;
+}
+
+a.link-yellow{
+    color: #f7c53d;
+}
+
+/* HEADER */
+header {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    z-index: 9999;
+}
+
+.header-inside {
+    width: 1050px;
+    max-width: 100%;
+    min-height: 190px;
+    margin: 0 auto;
+    padding: 0 1%;
+}
+
+.menu {
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 1.25em;
+    clear: right;
+}
+
+.menu li {
+    float: left;
+    margin: 20px 0 0 10px;
+}
+
+.menu li a {
+    text-decoration: none;
+    border-right: 1px solid #bfbfbf;
+    padding-right: 10px;
+    color: #767676;
+}
+
+.menu li a.nav-last {
+    border: none;
+}
+
+.menu li a:hover {
+    text-decoration: none;
+    color: #da4b3f;
+    font-weight: bold;
+}
+
+/* CONTENT */
+.title{
+    font-size: 3em;
+    font-weight: normal;
+}
+
+/* Ticket card */
+.tickets {
+    background: #f7c53d;
+    box-sizing: border-box;
+    margin: 0 auto;
+    max-width: 100%;
+    padding: .5em 1% 0 1%;
+    text-align: center;
+}
+.tickets-inside {
+    width: 1050px;
+    max-width: 100%;
+    min-height: 300px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 1%;
+}
+.tickets > p{
+    text-align: left;
+}
+.tickets > h2{
+    text-align: left;
+}
+
+/* Information card */
+.information {
+    background: #5f85c3;
+    box-sizing: border-box;
+    margin: 0;
+    padding: .5em 1% 0 1%;
+    width: 100%;
+    color: #ffffff;
+}
+
+.information-inside {
+    width: 1050px;
+    max-width: 100%;
+    min-height: 400px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 1%;
+}
+
+/* Organizer card */
+.organizer {
+    background: #099851;
+    box-sizing: border-box;
+    margin: 0;
+    padding: .5em 1% 0 1%;
+    width: 100%;
+    color: #ffffff;
+}
+
+.organizer-inside {
+    width: 1050px;
+    max-width: 100%;
+    min-height: 400px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0 1%;
+}
+
+/* Data card */
+.data {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.data-inside {
+    width: 1050px;
+    max-width: 100%;
+    min-height: 420px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 6px 1%;
+}
+
+.data-inside p {
+    font-size: 1.8em;
+}
+
+/* Sponsor card */
+.sponsor {
+    background: #da4b3f;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+}
+
+.sponsor-inside {
+    width: 1050px;
+    max-width: 100%;
+    min-height: 420px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 6px 1%;
+}
+
+/* Call4papers card */
+.call4papers {
+    background: #f7c53d;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.call4papers-inside {
+    width: 1050px;
+    max-width: 100%;
+    min-height: 420px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 6px 1%;
+}
+
+/* FOOTER */
+footer {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 10px 0 0;
+    background: #444444;
+}
+
+.footer-inside {
+    width: 1050px;
+    max-width: 100%;
+    min-height: 330px;
+    height: 100%;
+    margin: 0 auto;
+    padding: 1px 1%;
+}
+
+.footer-inside>div{
+    text-align: left;
+    width: 40%;
+}
+
+.footer-menu {
+    float: left;
+    height: 100%;
+    margin: 0;
+    width: 510px;
+    padding: 0 1.5%;
+}
+
+.footer-menu ul {
+    list-style: none;
+    width:433px;
+}
+
+.footer-menu ul li {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.footer-menu ul li a {
+    color: #ffffff;
+}
+
+.footer-menu ul li a:hover {
+    color: #f7c53d;
+}
+
+#backtop{position:fixed;bottom:20px;right:20px;cursor:pointer;}
+
+/*** Media for Desktop ***/
+@media screen and (min-width: 769px) {
+    .title{
+        text-align: left;
+        font-size: 3em;
+    }
+
+    .menu {
+        float: right;
+        font-size: 1.25em;
+    }
+
+    .menu li{
+        display:inline;
+        float: left;
+        margin: 20px 0 0 10px;
+        padding: 0;
+    }
+
+    .menu li a{
+        border-right: 1px solid #bfbfbf;
+    }
+    .data-inside {
+        text-align: none;
+    }
+    .data-inside h1 {
+        font-size: 2.25em;
+    }
+
+    .footer-inside>div{
+        text-align: left;
+    }
+
+    .footer-inside>div.footer-menu{
+        text-align: left;
+    }
+
+    .footer-inside>div{
+        width: 40%;
+    }
+    .footer-menu{
+        float:left;
+    }
+    .footer-menu ul {
+        width:433px;
+    }
+    .tickets>h2{
+        text-align: left;
+    }
+}
+
+/*** Media for tablet < 768 ***/
+@media screen and (max-width: 768px) {
+    .title{
+        font-size: 2.5em;
+        text-align: center;
+    }
+    .menu {
+        float: initial;
+        font-size: 1.5em;
+    }
+    .menu li{
+        box-sizing: border-box;
+        display: inline-block;
+        float: initial;
+        text-align: center;
+        margin: 0;
+        padding: .5em;
+        width: 100%;
+    }
+    .menu li a{
+        border: 0;
+    }
+
+    .data-inside {
+        text-align: center;
+    }
+    .data-inside h1 {
+        font-size: 1.95em;
+    }
+    .footer-inside>div{
+        text-align: center;
+    }
+    .footer-inside>div.footer-menu{
+        text-align: left;
+    }
+
+    .footer-inside>div{
+        width: 100%;
+    }
+    .footer-menu {
+        float: initial;
+    }
+    .footer-menu ul {
+        width:333px;
+    }
+    .tickets>h2{
+        text-align: center;
+    }
+}
+
+/*** Media for mobile devices < 480 ***/
+@media screen and (max-width: 480px) {
+    .title{
+        font-size: 2.5em;
+        text-align: center;
+    }
+
+    .menu {
+        float: initial;
+        font-size: 1.5em;
+    }
+
+    .menu li{
+        box-sizing: border-box;
+        display: inline-block;
+        float: initial;
+        text-align: center;
+        margin: 0;
+        padding: .5em;
+        width: 100%;
+    }
+
+    .menu li a{
+        border: 0;
+    }
+    .data-inside {
+        text-align: center;
+    }
+    .data-inside h1 {
+        font-size: 1.45em;
+    }
+
+    .footer-inside>div{
+        text-align: center;
+    }
+
+    .footer-inside>div.footer-menu{
+        text-align: left;
+    }
+
+    .footer-inside>div{
+        width: 100%;
+    }
+    .footer-menu {
+        float: initial;
+    }
+    .footer-menu ul {
+        width:263px;
+    }
+}
+
+/* bootstrap code */
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.container:before,
+.container:after {
+  display: table;
+  content: " ";
+}
+
+.container:after {
+  clear: both;
+}
+
+.container:before,
+.container:after {
+  display: table;
+  content: " ";
+}
+
+.container:after {
+  clear: both;
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+
+.row:after {
+  clear: both;
+}
+
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+
+.row:after {
+  clear: both;
+}
+
+.col-xs-11,
+.col-sm-11,
+.col-md-5 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-xs-11 {
+  float: left;
+}
+
+.col-xs-11 {
+  width: 91.66666666666666%;
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 750px;
+  }
+  .col-sm-11 {
+    float: left;
+  }
+  .col-sm-11 {
+    width: 91.66666666666666%;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 970px;
+  }
+  .col-md-5 {
+    float: left;
+  }
+  .col-md-5 {
+    width: 41.66666666666667%;
+  }
+}
+
+
+.pull-left {
+  float: left !important;
+}
+
+
+.clear_div{
+    clear:both;
+}
